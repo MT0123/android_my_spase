@@ -1,0 +1,75 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    card_view:cardBackgroundColor="@color/colorWhite"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tv_hour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10"
+                android:textSize="40sp"
+                android:textColor="#AB5BBB"
+                android:gravity="center"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_minute"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="99"
+                android:textSize="20sp"
+                android:textColor="#AB5BBB"
+                android:gravity="center|bottom"
+                android:typeface="sans" />
+            <TextView
+                android:id="@+id/tv_ampm"
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:text="AM"
+                android:textSize="10sp"
+                android:textColor="#AB5BBB"
+                android:gravity="center|top"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tv_schedule"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ＸＸＸＸＸＸＸＸＸＸＸＸＸＸＸ"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:gravity="left|center"
+                android:typeface="sans" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_event_list"
+            android:icon="@drawable/ic_search"
+            android:title="イベントを探す" />
+        <item
+            android:id="@+id/nav_schedule_list"
+            android:icon="@drawable/ic_calendar"
+            android:title="スケジュール" />
+        <item
+            android:id="@+id/nav_target_list"
+            android:icon="@drawable/ic_men"
+            android:title="案件一覧" />
+        <item
+            android:id="@+id/nav_user_profile"
+            android:icon="@drawable/ic_mickey"
+            android:title="ユーザープロフィール" />
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_home"
+            android:title="ホーム" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

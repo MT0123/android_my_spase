@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:weightSum="1"
+    android:background="#DCD5E1">
+
+    <!--
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardListScheduleList" />
+
+</LinearLayout>
+-->
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/calendarView"
+        android:background="#DCD5E1"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:id="@+id/floatingActionButton" />
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvSchedule"/>
+
+
+</LinearLayout>
+
+<!--
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="11:00 美容院"
+            android:id="@+id/txt_view_schedule1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="13:00 村上さんと映画"
+            android:id="@+id/txt_view_schedule2" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="8/28"
+            android:id="@+id/txt_view_select_date" />
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:inputType="date"
+            android:ems="5"
+            android:text="15"
+            android:id="@+id/edit_txt_data" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="時　(例 12)"
+            android:id="@+id/txt_view_example_time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="スタートアップウィークエンド"
+            android:id="@+id/edit_txt_schedule" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:weightSum="1">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_btn_edit"
+            android:layout_weight="0.07"
+            android:src="@drawable/ic_pencil" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_btn_insert"
+            android:layout_weight="0.07" />
+    </LinearLayout>
+ -->
+    <!--
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.27">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:id="@+id/img_btn_date"
+                android:layout_weight="0.07"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:id="@+id/img_btn_event"
+                android:layout_weight="0.07"/>
+        </LinearLayout>
+       -->
+    <!--
+    </ScrollView>
+    -->
+

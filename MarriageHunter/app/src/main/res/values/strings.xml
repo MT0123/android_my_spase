@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Atalanta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Draft -->
+    <!-- who -->
+    <string-array name="list_who">
+        <item>リー</item>
+        <item>村上</item>
+        <item>竹村</item>
+    </string-array>
+    <!-- where -->
+    <string-array name="list_where">
+        <item>ディズニーランド</item>
+        <item>ディズニーシー</item>
+        <item>レインボーブリッジ</item>
+        <item>横浜赤レンガ倉庫</item>
+        <item>東京スカイツリー</item>
+        <item>映画</item>
+    </string-array>
+
+</resources>

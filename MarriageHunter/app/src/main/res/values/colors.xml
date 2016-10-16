@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSnow">#FFFAFA</color>
+    <color name="colorGhostwhite">#F8F8FF</color>
+    <color name="colorMintcream">#F5FFFA</color>
+    <color name="colorFloralwhite">#FFFAF0</color>
+    <color name="colorIvory">#FFFFF0</color>
+    <color name="colorHoneydew">#F0FFF0</color>
+    <color name="colorAzure">#F0FFFF</color>
+    <color name="colorAliceblue">#F0F8FF</color>
+    <color name="colorLavenderblush">#FFF0F5</color>
+    <color name="colorSeashell">#FFF5EE</color>
+    <color name="colorWhitesmoke">#F5F5F5</color>
+    <color name="colorOldlace">#FDF5E6</color>
+    <color name="colorMistyrose">#FFE4E1</color>
+    <color name="colorLinen">#FAF0E6</color>
+    <color name="colorLavender">#E6E6FA</color>
+    <color name="colorLightyellow">#FFFFE0</color>
+    <color name="colorLightCyan">#E0FFFF</color>
+
+    <color name="colorThistle">#D8BFD8</color>
+    <color name="colorLightgrey">#D3D3D3</color>
+    <color name="colorPalegoldenrod">#EEE8AA</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorDarkmagenta">	#8B008B</color>
+
+    <color name="colorDarkTurquoise">#00ced1</color>
+    <color name="colorMediumCyan">#00FFFF</color>
+    <color name="colorCyan">#00FFFF</color>
+    <color name="colorTurquoise">#40E0D0</color>
+    <color name="colorDeepskyblue">	#00BFFF</color>
+    <color name="colorLightskyblue">#87CEFA</color>
+    <color name="colorMediumaquamarine">#66CDAA</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCrimson">#DC143C</color>
+    <color name="colorLightpink">#FFB6C1</color>
+    <color name="colorPalevioletred">#DB7093</color>
+    <color name="colorLightcoral">#F08080</color>
+    <color name="colorSalmon">#FA8072</color>
+
+    <color name="colorTomato">#FF6347</color>
+    <color name="colorDarkorange">#FF8C00</color>
+    <color name="colorGold">#FFD700</color>
+    <color name="colorYellow">#FFFF00</color>
+
+    <color name="colorPalegreen">#98FB98</color>
+    <color name="colorDarkseagreen">#8FBC8F</color>
+    <color name="colorSeagreen">#2E8B57</color>
+    <color name="colorDarkkhaki">#BDB76B</color>
+    <color name="colorOlive">#808000</color>
+</resources>

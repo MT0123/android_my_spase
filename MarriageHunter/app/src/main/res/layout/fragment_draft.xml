@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+        android:gravity="left|center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="誰と？"
+        android:id="@+id/txt_view_who" />
+        <Spinner
+            android:gravity="left|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinne_who"
+            android:entries="@array/list_who"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="left|center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="日程は？"
+            android:id="@+id/txt_view_when" />
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="4"
+            android:text="1031"
+            android:id="@+id/edit_date"/>
+        <TextView
+            android:gravity="left|center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text=" 例 0809"
+            android:id="@+id/txt_view_date_int" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_btn_calender"
+            android:background="@color/colorLightCyan"
+            android:src="@drawable/ic_calendar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="left|center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="場所は？"
+            android:id="@+id/txt_view_where" />
+        <Spinner
+            android:gravity="left|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinne_where"
+            android:entries="@array/list_where"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:gravity="left|center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="りーさん、10/31にディズニーランドへ遊びにいきませんか？"
+            android:id="@+id/txt_view_messege" />
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_btn_line"
+            android:background="@color/colorLightCyan"
+            android:src="@drawable/line" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+</LinearLayout>
